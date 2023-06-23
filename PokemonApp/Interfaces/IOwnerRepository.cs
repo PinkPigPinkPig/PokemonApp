@@ -9,5 +9,7 @@ namespace PokemonApp.Interfaces
         Owner GetOwnersOfAPokemon(int pokeId);
         ICollection<Pokemon> GetPokemonsByOwner(int ownerId);
         bool IsOwnerExist(int ownerId);
+        bool CreateCountry(Owner owner);
+        bool Save();
     }
 }
